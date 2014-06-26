@@ -9,3 +9,5 @@ Much work remains to be done and bugs to be fixed.
 
 Most obvious bug at present, spawning a new thread and then terminating listener leaves an orphaned thread hanging
 around, preventing the application from launching again without ending orphaned process.
+
+Using Python 2.7.
