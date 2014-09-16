@@ -46,8 +46,6 @@ class UdpCommunicator:
 def main():
     host = sys.argv[1]
     port = int(sys.argv[2])
-
-    print 'asda'    
     
     taskRunner = UdpCommunicator(host, port)
     taskResult = taskRunner.GetAndRunTask()
