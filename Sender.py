@@ -13,7 +13,7 @@ import cPickle as Pickle
 import socket
 import Task
 
-host = 'localhost'
+host = '192.168.0.2'
 port = 8088
 bufferSize = 4096
 addr = (host, port)
@@ -28,7 +28,7 @@ udpSock.sendto(data, addr)
 
 udpListener = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 udpListener.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-udpListener.bind((host, 8086))
+udpListener.bind(('192.168.0.11', 8086))
 
 a, b = udpListener.recvfrom(1024)
 print a, b

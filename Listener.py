@@ -13,7 +13,7 @@
 import os
 from threading import Thread
 
-host = 'localhost'
+host = '192.168.0.11'
 port = 8088
 bufferSize = 4096
 addr = (host, port)
