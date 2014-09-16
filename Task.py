@@ -15,4 +15,4 @@ class SerialisableTestClass:
         self.arg2 = arg2
 
     def Calculate(self):
-        return self.arg1 ** self.arg2
+        return self.arg1 * self.arg2
