@@ -2,10 +2,10 @@
 # Name:        module1
 # Purpose:
 #
-# Author:      Nikeah
+# Author:      RedSpiderMkV
 #
 # Created:     16/06/2014
-# Copyright:   (c) Nikeah 2014
+# Copyright:   (c) RedSpiderMkV 2014
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
@@ -20,7 +20,7 @@ addr = (host, port)
 
 udpSock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-o = Task.SerialisableTestClass(21,5)
+o = Task.SerialisableTestClass(2,5)
 
 data = Pickle.dumps(o)
 

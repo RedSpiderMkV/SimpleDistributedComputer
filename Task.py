@@ -2,10 +2,10 @@
 # Name:        module1
 # Purpose:
 #
-# Author:      Nikeah
+# Author:      RedSpiderMkV
 #
 # Created:     16/06/2014
-# Copyright:   (c) Nikeah 2014
+# Copyright:   (c) RedSpiderMkV 2014
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
@@ -15,4 +15,4 @@ class SerialisableTestClass:
         self.arg2 = arg2
 
     def Calculate(self):
-        return self.arg1 * self.arg2
+        return self.arg1 ** self.arg2

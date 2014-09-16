@@ -2,10 +2,10 @@
 # Name:        module1
 # Purpose:
 #
-# Author:      Nikeah
+# Author:      RedSpiderMkV
 #
 # Created:     17/06/2014
-# Copyright:   (c) Nikeah 2014
+# Copyright:   (c) RedSpiderMkV 2014
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
@@ -31,7 +31,7 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
+
 #t1 = thread.start_new_thread(executeRunner, ())
 
 #while True:
